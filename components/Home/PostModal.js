@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import baseUrl from "../../utilities/baseUrl";
 
 const PostModal = ({ userData }) => {
   const [postImg, setPostImg] = useState([]);
@@ -30,11 +31,11 @@ const PostModal = ({ userData }) => {
         .then((res) => res.json())
         .then((result) => (data.img = result.url));
     }
-    // console.log(data);
 
     const response = await axios.post(`/api/post`, {
       data,
     });
+
     if (response.status === 201) {
       alert("Updated Success");
     }
