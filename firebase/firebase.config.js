@@ -1,10 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDwnQpcYHAkW7bFWaD2kD7o2NVamkJaC9g",
-  authDomain: "socio-trend.firebaseapp.com",
-  projectId: "socio-trend",
-  storageBucket: "socio-trend.appspot.com",
-  messagingSenderId: "25754685473",
-  appId: "1:25754685473:web:439e69516f2fd6b9705360"
+  apiKey: "AIzaSyCM4cOZ6aT1NoiJo9vRReN3BpZd76l8a8I",
+  authDomain: "socio-trend-f1540.firebaseapp.com",
+  projectId: "socio-trend-f1540",
+  storageBucket: "socio-trend-f1540.appspot.com",
+  messagingSenderId: "1059174345578",
+  appId: "1:1059174345578:web:cd3605111097d216fd5313",
+  measurementId: "G-BZMQRZ3LM3"
 }
 
 
